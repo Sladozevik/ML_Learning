@@ -24,7 +24,7 @@ clf = clf.fit(features, labels)  # Find patterns in data
 
 # Make Predictions
 if clf.predict([[100, 0]]) == [1]:
-    print('Jabuka')
+    print('Apple')
 else:
     print('Orange')
 # Output: 0-apple, 1-orange
