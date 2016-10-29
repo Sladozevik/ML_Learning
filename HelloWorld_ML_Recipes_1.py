@@ -23,7 +23,9 @@ clf = tree.DecisionTreeClassifier()  # Decision Tree classifier
 clf = clf.fit(features, labels)  # Find patterns in data
 
 # Make Predictions
-if clf.predict([[100, 0]]) == [1]:
+predict = clf.predict([[100, 0]]) 
+print(predict)
+if predict == [1]:
     print('Apple')
 else:
     print('Orange')
